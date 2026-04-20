@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="Omnifood is an AI-powered food subscription that wil make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <title>MyMovieApp</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="sidebar-hidden">
+    <div class="container">
+      <!-- HEADER / NAVBAR -->
+      <header>
+        <nav class="navbar">
+          <div class="nav-section nav-left">
+            <button class="nav-button menu-button">
+              <ion-icon name="menu-outline"></ion-icon>
+            </button>
+
+            <a href="#" class="nav-logo">
+              <img src="images/logo.png" alt="Logo" class="logo-image" />
+              <h2 class="logo-text">MyMovieApp</h2>
+            </a>
+          </div>
+
+          <div class="nav-section nav-center">
+            <form action="#" class="search-form">
+              <input
+                type="search"
+                placeholder="Search"
+                required
+                class="search-input"
+              />
+              <button class="nav-button search-button">
+                <ion-icon name="search-outline"></ion-icon>
+              </button>
+              <button class="nav-button mic-button">
+                <ion-icon name="mic-outline"></ion-icon>
+              </button>
+            </form>
+          </div>
+
+          <div class="nav-section nav-right">
+            <button class="nav-button search-button">
+              <ion-icon name="search-outline"></ion-icon>
+            </button>
+            <button class="nav-button theme-button">
+              <ion-icon name="moon-outline"></ion-icon>
+            </button>
+            <img src="images/user.jpg" alt="User Image" class="user-image" />
+          </div>
+        </nav>
+      </header>
+
+      <main class="main-layout">
+        <div class="screen-overlay"></div>
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+          <div class="nav-section nav-left">
+            <button class="nav-button menu-button">
+              <ion-icon name="menu-outline"></ion-icon>
+            </button>
+
+            <a href="#" class="nav-logo">
+              <img src="images/logo.png" alt="Logo" class="logo-image" />
+              <h2 class="logo-text">MyMovieApp</h2>
+            </a>
+          </div>
+
+          <div class="link-container">
+            <div class="link-section">
+              <a href="#" class="link-item">
+                <ion-icon name="home-outline" class="menu-sidebar"></ion-icon>
+                Home
+              </a>
+              <a href="#" class="link-item">
+                <ion-icon
+                  name="videocam-outline"
+                  class="menu-sidebar"
+                ></ion-icon>
+                Short
+              </a>
+              <a href="#" class="link-item">
+                <ion-icon name="albums-outline" class="menu-sidebar"></ion-icon>
+                Subscription
+              </a>
+            </div>
+            <div class="section-separator"></div>
+
+            <div class="link-section">
+              <h4 class="section-title">You</h4>
+              <a href="#" class="link-item">
+                <ion-icon name="person-outline" class="menu-sidebar"></ion-icon>
+                Your Channel
+              </a>
+              <a href="#" class="link-item">
+                <ion-icon name="reload-outline" class="menu-sidebar"></ion-icon>
+                History
+              </a>
+              <a href="#" class="link-item">
+                <ion-icon name="tv-outline" class="menu-sidebar"></ion-icon>
+                Watch Letter
+              </a>
+            </div>
+            <div class="section-separator"></div>
+
+            <div class="link-section">
+              <h4 class="section-title">Explore</h4>
+              <a href="#" class="link-item">
+                <ion-icon name="flame-outline" class="menu-sidebar"></ion-icon>
+                Trending
+              </a>
+              <a href="#" class="link-item">
+                <ion-icon
+                  name="file-tray-stacked-outline"
+                  class="menu-sidebar"
+                ></ion-icon>
+                Series
+              </a>
+              <a href="#" class="link-item">
+                <ion-icon
+                  name="file-tray-outline"
+                  class="menu-sidebar"
+                ></ion-icon>
+                Movie
+              </a>
+            </div>
+            <div class="section-separator"></div>
+
+            <div class="link-section">
+              <h4 class="section-title">More from This App</h4>
+              <a href="#" class="link-item">
+                <ion-icon name="film-outline" class="menu-sidebar"></ion-icon>
+                Trailer
+              </a>
+              <a href="#" class="link-item">
+                <ion-icon name="happy-outline" class="menu-sidebar"></ion-icon>
+                Kids Movie
+              </a>
+              <a href="#" class="link-item">
+                <ion-icon
+                  name="sparkles-outline"
+                  class="menu-sidebar"
+                ></ion-icon>
+                VIP
+              </a>
+            </div>
+            <div class="section-separator"></div>
+
+            <div class="link-section">
+              <a href="#" class="link-item">
+                <ion-icon
+                  name="settings-outline"
+                  class="menu-sidebar"
+                ></ion-icon>
+                Setting
+              </a>
+              <a href="#" class="link-item">
+                <ion-icon
+                  name="construct-outline"
+                  class="menu-sidebar"
+                ></ion-icon>
+                Report
+              </a>
+              <a href="#" class="link-item">
+                <ion-icon
+                  name="help-circle-outline"
+                  class="menu-sidebar"
+                ></ion-icon>
+                Help
+              </a>
+              <a href="#" class="link-item">
+                <ion-icon
+                  name="triangle-outline"
+                  class="menu-sidebar"
+                ></ion-icon>
+                Feedback
+              </a>
+            </div>
+          </div>
+        </aside>
+
+        <div class="content-wrapper">
+          <!-- CATEGORY LIST -->
+          <div class="category-list country">
+            <button class="category-button active">All</button>
+            <button class="category-button">Indonesia</button>
+            <button class="category-button">Amerika Serikat</button>
+            <button class="category-button">Korea Selatan</button>
+            <button class="category-button">India</button>
+            <button class="category-button">Jepang</button>
+            <button class="category-button">Thailand</button>
+            <button class="category-button">Arab Saudi</button>
+            <button class="category-button">Inggris</button>
+            <button class="category-button">Italia</button>
+            <button class="category-button">Meksiko</button>
+            <button class="category-button">Yordania</button>
+            <button class="category-button">Mesir</button>
+            <button class="category-button">Malaysia</button>
+            <button class="category-button">Argentina</button>
+            <button class="category-button">Brazil</button>
+            <button class="category-button">Spanyol</button>
+            <button class="category-button">Turki</button>
+            <button class="category-button">Rusia</button>
+            <button class="category-button">Kanada</button>
+            <button class="category-button">Polandia</button>
+          </div>
+
+          <!--VIDEO LIST  -->
+          <div class="video-list">
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img
+                  src="images/thumbnail/film1.jpg"
+                  alt="Encanto"
+                  class="thumbnail"
+                />
+                <p class="duration">1.49.00</p>
+              </div>
+              <div class="video-info">
+                <img
+                  src="images/channel/disney.jpeg"
+                  alt="Disney+Hotstar"
+                  class="icon"
+                />
+                <div class="video-detail">
+                  <h2 class="title">Encanto</h2>
+                  <p class="channel-name">Disney+Hotstar</p>
+                  <p class="views">269M views ▪ 4 year ago</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img
+                  src="images/thumbnail/film2.jpg"
+                  alt="200 Pounds Beauty"
+                  class="thumbnail"
+                />
+                <p class="duration">1.35.00</p>
+              </div>
+              <div class="video-info">
+                <img
+                  src="images/channel/prime.jpeg"
+                  alt="Prime Video"
+                  class="icon"
+                />
+                <div class="video-detail">
+                  <h2 class="title">Prime Video</h2>
+                  <p class="channel-name">200 Pounds Beauty</p>
+                  <p class="views">2 year ago</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img
+                  src="images/thumbnail/film3.jpg"
+                  alt="Mean Girls"
+                  class="thumbnail"
+                />
+                <p class="duration">1.37.00</p>
+              </div>
+              <div class="video-info">
+                <img
+                  src="images/channel/netflix.jpeg"
+                  alt="Netflix"
+                  class="icon"
+                />
+                <div class="video-detail">
+                  <h2 class="title">Mean Girls</h2>
+                  <p class="channel-name">Netflix</p>
+                  <p class="views">21 month ago</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img
+                  src="images/thumbnail/film4.jpeg"
+                  alt="True Beauty"
+                  class="thumbnail"
+                />
+                <p class="duration">16 eps</p>
+              </div>
+              <div class="video-info">
+                <img src="images/channel/video.jpeg" alt="Video" class="icon" />
+                <div class="video-detail">
+                  <h2 class="title">True Beauty</h2>
+                  <p class="channel-name">Video</p>
+                  <p class="views">5 year ago</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img
+                  src="images/thumbnail/film5.jpg"
+                  alt="Barbie"
+                  class="thumbnail"
+                />
+                <p class="duration">1.54.00</p>
+              </div>
+              <div class="video-info">
+                <img
+                  src="images/channel/prime.jpeg"
+                  alt="Prime Video"
+                  class="icon"
+                />
+                <div class="video-detail">
+                  <h2 class="title">Barbie</h2>
+                  <p class="channel-name">Prime Video</p>
+                  <p class="views">2 year ago</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img
+                  src="images/thumbnail/film6.jpg"
+                  alt="Moana"
+                  class="thumbnail"
+                />
+                <p class="duration">1.47.00</p>
+              </div>
+              <div class="video-info">
+                <img
+                  src="images/channel/disney.jpeg"
+                  alt="Disney+Hotstar"
+                  class="icon"
+                />
+                <div class="video-detail">
+                  <h2 class="title">Moana</h2>
+                  <p class="channel-name">Disney+Hotstar</p>
+                  <p class="views">775M views ▪ 9 year ago</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img
+                  src="images/thumbnail/film7.jpg"
+                  alt="Mariposa"
+                  class="thumbnail"
+                />
+                <p class="duration">1.58.00</p>
+              </div>
+              <div class="video-info">
+                <img
+                  src="images/channel/netflix.jpeg"
+                  alt="Netflix"
+                  class="icon"
+                />
+                <div class="video-detail">
+                  <h2 class="title">Mariposa</h2>
+                  <p class="channel-name">Netflix</p>
+                  <p class="views">700k views ▪ 5 year ago</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img
+                  src="images/thumbnail/film8.jpg"
+                  alt="Twinkling Watermelon"
+                  class="thumbnail"
+                />
+                <p class="duration">16 eps</p>
+              </div>
+              <div class="video-info">
+                <img src="images/channel/viu.jpeg" alt="Viu" class="icon" />
+                <div class="video-detail">
+                  <h2 class="title">Twinkling Watermelon</h2>
+                  <p class="channel-name">Viu</p>
+                  <p class="views">2 year ago</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img
+                  src="images/thumbnail/film9.jpg"
+                  alt="Ayo Balikan"
+                  class="thumbnail"
+                />
+                <p class="duration">1.26.00</p>
+              </div>
+              <div class="video-info">
+                <img
+                  src="images/channel/prime.jpeg"
+                  alt="Prime Video"
+                  class="icon"
+                />
+                <div class="video-detail">
+                  <h2 class="title">Ayo Balikan</h2>
+                  <p class="channel-name">Prime Video</p>
+                  <p class="views">1 year ago</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img
+                  src="images/thumbnail/film10.jpg"
+                  alt="Newtopia"
+                  class="thumbnail"
+                />
+                <p class="duration">8 eps</p>
+              </div>
+              <div class="video-info">
+                <img
+                  src="images/channel/prime.jpeg"
+                  alt="Prime Video"
+                  class="icon"
+                />
+                <div class="video-detail">
+                  <h2 class="title">Newtopia</h2>
+                  <p class="channel-name">Prime Video</p>
+                  <p class="views">4 month ago</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img
+                  src="images/thumbnail/film11.jpg"
+                  alt="Coco"
+                  class="thumbnail"
+                />
+                <p class="duration">1.45.00</p>
+              </div>
+              <div class="video-info">
+                <img
+                  src="images/channel/disney.jpeg"
+                  alt="Disney+Hotstar"
+                  class="icon"
+                />
+                <div class="video-detail">
+                  <h2 class="title">Coco</h2>
+                  <p class="channel-name">Disney+Hotstar</p>
+                  <p class="views">8 year ago</p>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="video-card">
+              <div class="thumbnail-container">
+                <img
+                  src="images/thumbnail/film12.jpg"
+                  alt="Enola Holmes"
+                  class="thumbnail"
+                />
+                <p class="duration">2.3.00</p>
+              </div>
+              <div class="video-info">
+                <img
+                  src="images/channel/netflix.jpeg"
+                  alt="Netflix"
+                  class="icon"
+                />
+                <div class="video-detail">
+                  <h2 class="title">Enola Holmes</h2>
+                  <p class="channel-name">Netflix</p>
+                  <p class="views">76M views ▪ 5 year ago</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
